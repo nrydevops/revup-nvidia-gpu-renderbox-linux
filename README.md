@@ -18,7 +18,7 @@ Among the other packages these scripts will install
 SSH into your EC2 box, once in just run the following
 ```bash
 git clone https://github.com/rybruscoe/revup-nvidia-gpu-renderbox-linux
-cd nvidia-hw-accelerated-box
+cd revup-nvidia-gpu-renderbox-linux
 sudo su
 source setup.sh
 ```
