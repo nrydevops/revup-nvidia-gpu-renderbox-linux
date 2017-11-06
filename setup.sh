@@ -13,7 +13,7 @@ crontab -r
 echo "SHELL=/bin/bash" >> /tmp/usercron
 echo "DISPLAY=$DISPLAY" >> /tmp/usercron
 echo "PATH=$PATH" >> /tmp/usercron
-echo "@reboot /home/ubuntu/nvidia-hw-accelerated-box/startup.sh" >> /tmp/usercron
+echo "@reboot /home/ubuntu/revup-nvidia-gpu-renderbox-linux/startup.sh" >> /tmp/usercron
 crontab /tmp/usercron
 rm -f /tmp/usercron
 eof
