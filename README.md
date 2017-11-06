@@ -2,11 +2,11 @@
 This is intended to be a **demo** setup to run hardware accelerated content on AWS G2 instances https://aws.amazon.com/ec2/instance-types/#g2
 
 # Requirements
-These scripts must be run on a G2 EC2 box running Ubuntu 16.04 (HVM).
+These scripts must be run on a K80, M60, of V100 EC2 box running Ubuntu 16.04 (HVM).
 
 # What is included?
 Among the other packages these scripts will install
-- nvidia drivers v367.57 http://www.nvidia.com/download/driverResults.aspx/108586/en-us
+- nvidia drivers v384.81 http://www.nvidia.com/download/driverResults.aspx/124722/en-us
 - VirtualGL v2.5.2 http://www.virtualgl.org/
 - TurboVNC http://www.turbovnc.org/
 - docker https://www.docker.com/
