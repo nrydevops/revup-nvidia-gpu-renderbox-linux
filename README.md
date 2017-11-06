@@ -1,8 +1,11 @@
+# Credits
+This repo is a clone based on Plumbee's original code for the older g2 Nvidia GRID (Cloud Graphics) AWS Ec2 instances. Shout out to pigiuz for his original demo using the g2 instances located here: https://github.com/plumbee/nvidia-hw-accelerated-box
+
 # Before you start
-This is intended to be a **demo** setup to run hardware accelerated content on AWS G2 instances https://aws.amazon.com/ec2/instance-types/#g2
+This is intended to be a **demo** setup to run hardware accelerated content on AWS g3 (Nvidia Tesla M60) GPU Hardware accelerated instances https://aws.amazon.com/blogs/aws/new-next-generation-gpu-powered-ec2-instances-g3/
 
 # Requirements
-These scripts must be run on a K80, M60, of V100 EC2 box running Ubuntu 16.04 (HVM).
+These scripts must be run on a M60 instances running Ubuntu 16.04 (HVM).
 
 # What is included?
 Among the other packages these scripts will install
